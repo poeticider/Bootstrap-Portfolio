@@ -6,8 +6,19 @@
     margin-right: 1rem;
 }
 
-.bg-body-tertiary {
-    background-color: orangered; !important
+.nav-logo-parent {
+    padding-left: 0rem;
+}
+
+.nav-logo-parent > a {
+    background-color: white;
+    margin-left: 0rem;
+    padding-right: 2rem;
+    padding-left: 10%;
+}
+
+.navbar {
+    background-color: orangered;
 }
 
 .navbar-brand {
@@ -15,10 +26,6 @@
     align-items: center;
 }
 
-.navbar-nav {
-
-    background-color: green;
-}
 
 .jumbotron {
     background-image: url(./images/hero-banner.jpg);
@@ -37,3 +44,16 @@
     color: white;
 }
 
+/* -----------------main------------------------- */
+
+.section {
+    margin-top: 2rem;
+}
+
+.section h2 {
+    border-right: solid orangered;
+}
+
+.main-img {
+    background-image: url("./images/WebsiteScreenshots/Portfolio\ screenshot.jpg");
+}
