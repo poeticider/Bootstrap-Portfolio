@@ -108,3 +108,20 @@
 .sub-img-4 {
     background-image: url("./images/WebsiteScreenshots/rock\ paper\ scissors\ screenshot.jpg");
 }
+
+/* media queries */
+
+
+@media (max-width: 768px) {
+    .section h2 {
+        border-right: none;
+        border-top: orangered solid;
+        border-bottom: orangered solid;
+        border-right: none;
+        justify-content: center;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 1rem;
+    }
+}
