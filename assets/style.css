@@ -56,4 +56,55 @@
 
 .main-img {
     background-image: url("./images/WebsiteScreenshots/Portfolio\ screenshot.jpg");
+    height: 25rem;
+    width: 95%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0rem 0.5rem 1rem 0.5rem;
+    border: black solid 0.3rem;
+    background-size: cover;
+    background-color: orangered;
+    background-blend-mode: multiply;
+    text-decoration: none;
+}
+
+.sub-img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0rem 0.5rem 1rem 0.5rem;
+    height: 12rem;
+    width: 46.5%;
+    padding-left: 0%;
+    padding-right: 0%;
+    border: black solid 0.3rem;
+    background-size: cover;
+    background-color: orangered;
+    background-blend-mode: multiply;
+    text-decoration: none;
+}
+
+.left-img {
+    margin-right: 1%;
+}
+
+.right-img {
+    margin-left: 1%;
+}
+
+.sub-img-1 {
+    background-image: url("./images/WebsiteScreenshots/Online\ CV\ screenshot.jpg");
+}
+
+.sub-img-2 {
+    background-image: url("./images/WebsiteScreenshots/firefox\ mockup\ screenshot.jpg");   
+}
+
+.sub-img-3 {
+    background-image: url("./images/WebsiteScreenshots/sf6\ ref\ tool\ screenshot.jpg");
+}
+
+.sub-img-4 {
+    background-image: url("./images/WebsiteScreenshots/rock\ paper\ scissors\ screenshot.jpg");
 }
