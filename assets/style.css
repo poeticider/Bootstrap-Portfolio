@@ -1,6 +1,7 @@
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
 }
 
 .profile-image {
@@ -35,6 +36,13 @@ body {
     justify-content: center;
 }
 
+.navbar-nav > .nav-item > .nav-link {
+    color: white;
+}
+
+.navbar-nav > .nav-item > .nav-link:hover {
+    text-decoration: underline;
+}
 
 .jumbotron {
     background-image: url(./images/hero-banner.jpg);
@@ -63,15 +71,11 @@ body {
     border-right: solid orangered;
 }
 
-.main-img {
-    background-image: url("./images/WebsiteScreenshots/Portfolio\ screenshot.jpg");
-    height: 25rem;
-    width: 95%;
+.work-img {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     margin: 0rem 0.5rem 1rem 0.5rem;
-    padding: 0rem;
     border: black solid 0.3rem;
     background-size: cover;
     background-color: orangered;
@@ -79,20 +83,27 @@ body {
     text-decoration: none;
 }
 
+
+.work-img:hover {
+    background-size: 200%;
+}
+
+.work-img:hover .txt-container {
+    color: white;
+}
+
+.main-img {
+    background-image: url("./images/WebsiteScreenshots/Portfolio\ screenshot.jpg");
+    height: 25rem;
+    width: 95%; 
+    padding: 0rem;
+}
+
 .sub-img {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 0rem 0.5rem 1rem 0.5rem;
     height: 12rem;
     width: 46.5%;
     padding-left: 0%;
     padding-right: 0%;
-    border: black solid 0.3rem;
-    background-size: cover;
-    background-color: orangered;
-    background-blend-mode: multiply;
-    text-decoration: none;
 }
 
 .left-img {
@@ -140,9 +151,19 @@ body {
     font-size: 0.9rem;
 }
 
+.footer-links {
+    text-decoration: none;
+    color: orangered;
+}
+
+.footer-links :hover {
+    text-decoration: underline;
+}
+
 .footer-links h3 {
     font-size: 1.2rem;
 }
+
 
 /* media queries */
 @media (max-width: 992px) {
