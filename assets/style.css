@@ -86,6 +86,8 @@ body {
 
 .work-img:hover {
     background-size: 200%;
+    /* added box shadow for challenge requirements. I think its pretty ugly however. */
+    box-shadow: 2px 1px black;
 }
 
 .work-img:hover .txt-container {
