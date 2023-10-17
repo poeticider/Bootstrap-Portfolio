@@ -1,4 +1,8 @@
 
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .profile-image {
     height: 4rem;
     width: 4rem;
@@ -24,6 +28,11 @@
 .navbar-brand {
     display: inherit;
     align-items: center;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -62,6 +71,7 @@
     justify-content: flex-start;
     align-items: center;
     margin: 0rem 0.5rem 1rem 0.5rem;
+    padding: 0rem;
     border: black solid 0.3rem;
     background-size: cover;
     background-color: orangered;
@@ -109,6 +119,31 @@
     background-image: url("./images/WebsiteScreenshots/rock\ paper\ scissors\ screenshot.jpg");
 }
 
+.txt-container {
+    background-color: black;
+    border-right: 0.2rem solid white;
+    border-bottom: 0.2rem solid white;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    margin-top: 6rem;
+    color: orangered;
+}
+
+.main-img .txt-container {
+    margin-top: 18rem;
+}
+
+.txt-container h3 {
+    font-size: 1.2rem;
+}
+
+.txt-container h4 {
+    font-size: 0.9rem;
+}
+
+.footer-links h3 {
+    font-size: 1.2rem;
+}
+
 /* media queries */
 @media (max-width: 992px) {
     .section h2 {
@@ -135,6 +170,10 @@
         background-color: orangered;
         background-blend-mode: multiply;
         text-decoration: none;
+    }
+
+    .main-img .txt-container {
+        margin-top: 6rem;
     }
 
     .sub-img {
